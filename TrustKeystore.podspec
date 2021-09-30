@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'CryptoSwift', '~> 1.0'
   s.dependency 'TrezorCrypto'
+  s.dependency 'secp256k1.swift'
 
   s.pod_target_xcconfig = { 'SWIFT_OPTIMIZATION_LEVEL' => '-Owholemodule' }
 end
