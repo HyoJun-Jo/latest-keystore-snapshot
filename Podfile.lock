@@ -1,14 +1,14 @@
 PODS:
   - BigInt (3.1.0):
     - SipHash (~> 1.2)
-  - CryptoSwift (1.4.0)
+  - CryptoSwift (1.4.3)
   - secp256k1.swift (0.1.4)
   - SipHash (1.2.2)
   - TrezorCrypto (0.0.9)
 
 DEPENDENCIES:
   - BigInt (~> 3.0)
-  - CryptoSwift (= 1.4)
+  - CryptoSwift (= 1.4.3)
   - secp256k1.swift
   - TrezorCrypto
 
@@ -22,11 +22,11 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
-  CryptoSwift: 7cc902df1784de3b389a387756c7d710f197730c
+  CryptoSwift: a0799ee936271bd2253a006f1e4523df21845000
   secp256k1.swift: a7e7a214f6db6ce5db32cc6b2b45e5c4dd633634
   SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
   TrezorCrypto: bfeea47a052dca2c77d4a39e1e183865e52de14d
 
-PODFILE CHECKSUM: 881a86be30fa88b23a3b2e2a39fdde4397a2ed0a
+PODFILE CHECKSUM: 6491bfc32ba1a5c0c04298da16dc9e6a9f3cab32
 
 COCOAPODS: 1.10.1
